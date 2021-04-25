@@ -10,14 +10,12 @@
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Michroma&family=Raleway&display=swap" rel="stylesheet">
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap" rel="stylesheet"> -->
-
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap"
-        rel="stylesheet"> -->
-
+    
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Roboto&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.10.1/devicon.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 </head>
 
@@ -41,37 +39,58 @@
                         <div class="menu-bar3"></div>
                     </div>
 
-                    <ul class="menu-list">
-                        <li><a href="#about">ABOUT</a></li>
-                        <li><a href="#skills">SKILLS</a></li>
-                        <li><a href="#projects">PROJECTS</a></li>
-                        <li><a href="#contact">CONTACT</a></li>
-                    </ul>
+                    <div class="menu-list">
+                        <div class="menu-list-container">
+                            <div class="profile-pic"></div>
+                        <ul>
+                            <li><a href="#skills">SKILLS</a></li>
+                            <li><a href="#about">ABOUT</a></li>
+                            <li><a href="#projects">PROJECTS</a></li>
+                            <li><a href="#contact">GET IN TOUCH</a></li>
+                            <!-- <li><a href="#">RESUME</a></li> -->
+                        </ul>
+                        </div>
+                    </div>
                 </div>
             </nav>
 
             <div class="intro">
                 <div class="wrapper">
                     <div class="intro-content">
-                        <h1 id="front-end">FRONT-END</h1>
-                        <h1 id="developer">DEVELOPER</h1>
-                        <p><a href="#about"><span>&lt;p&gt;</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dignissimos hic dolore, architecto delectus fuga soluta error provident eveniet mollitia, ratione in, excepturi suscipit. Tenetur numquam amet nostrum exercitationem repellendus quis possimus doloremque, quisquam ipsa est nemo necessitatibus in vitae.<span>&lt;/p&gt;</span></a> </p>
-                    </div>
-
-                    <nav class="sm-icons">
-                        <ul>
-                            <li><a href="https://github.com/harrydhamija?tab=repositories" target="blank"><i class="fab fa-github" aria-hidden="true"></i><span class="sr-only">Link to Github profile</span></a></li>
-                            <li><a href="https://www.linkedin.com/in/harman-dhamija-768514103/" target="blank"><i class="fab fa-linkedin" aria-hidden="true"></i><span class="sr-only">Link to Linkedin page</span></a></li>
-                            <li><a href="https://twitter.com/harmandhamija2" target="blank"><i class="fab fa-twitter"></i><span class="sr-only">Link to twitter profile</span></a></li>
-                            <li><a href="mailto:harmanave@gmail.com" target="blank"><i class="fas fa-envelope-square"></i><span class="sr-only">Send email to Harman Dhamija</span></a></li>                        
-                        </ul>
-                    </nav>
-
-                    <div class="scroll-container">
-                        <p>scroll</p>
-                        <div class="scroll-down">
-                            <div></div>
+                        <div class="intro-title">
+                            <div>
+                                <h1 id="front-end">FRONT-END</h1>
+                                <h1 id="developer">DEVELOPER</h1>
+                            </div>
+                            <div>
+                                <h1 id="front-end">A</h1>
+                                <h1 id="developer">CREATOR</h1>
+                            </div>
+                            <div>
+                                <h1 id="front-end">A</h1>
+                                <h1 id="developer">TECH<span class="savvy">SAVVY</span></h1>
+                            </div>
                         </div>
+                        <div class="intro-about">
+                            <p><span>&lt;p&gt;</span> I am a Toronto based web developer, specializing in designing & developing responsive, accessible and visually cohesive web applications. Striving for creating engaging & entertaining user experiences & making web a better place. <span>&lt;/p&gt;</span></p>
+                        </div>
+
+                        <nav class="sm-icons">
+                            <ul>
+                                <li><a href="https://github.com/harrydhamija?tab=repositories" target="blank"><i class="fab fa-github" aria-hidden="true"></i><span class="sr-only">Link to Github profile</span></a></li>
+                                <li><a href="https://www.linkedin.com/in/harman-dhamija-768514103/" target="blank"><i class="fab fa-linkedin" aria-hidden="true"></i><span class="sr-only">Link to Linkedin page</span></a></li>
+                                <li><a href="https://twitter.com/harmandhamija2" target="blank"><i class="fab fa-twitter" aria-hidden="true"></i><span class="sr-only">Link to twitter profile</span></a></li>
+                                <li><a href="mailto:harmanave@gmail.com" target="blank"><i class="fas fa-envelope-square" aria-hidden="true"></i><span class="sr-only">Send email to Harman Dhamija</span></a></li>                        
+                            </ul>
+                        </nav>
+
+                        <div class="scroll-container">
+                            <p>scroll</p>
+                            <div class="scroll-down">
+                                <div></div>
+                            </div>
+                        </div>
+                        
                     </div>
                 </div>
             </div>
@@ -79,40 +98,66 @@
         </div>
     </header>
 
-    <section id="about" class="about">
-        <div class="wrapper"></div>
-
-        <div class="about-heading">
-            <h1>ABOUT</h1>
-        </div>
-    </section>
-
     <section id="skills" class="skills">
         <div class="wrapper">
 
-            <div class="skills-heading">
-                <h1>TECHNICAL SKILLS</h1>
-            </div>
+            <div class="skills-content" data-aos="zoom-out" data-aos-duration="1000">
 
-            <div class="skills-icons">
-                <ul>
-                    <li><i class="fab fa-html5"></i>HTML</li>
-                    <li><i class="fab fa-css3-alt"></i>CSS</li>
-                    <li><i class="fab fa-sass"></i>SASS</li>
-                    <li><i class="fab fa-js"></i>JAVASCRIPT</li>
-                    <li><i class="devicon-jquery-plain"></i>JQUERY</li>
-                    <li><i class="fab fa-react"></i>REACT</li>
-                    <li><i class="devicon-firebase-plain"></i>FIREBASE</li>
-                    <li><i class="fab fa-git-alt"></i>GIT</li>
-                    <li><i class="fab fa-github"></i>GITHUB</li>
-                    <li><i class="fas fa-terminal"></i>COMMAND LINE</li>
-                    <li><i class="fas fa-universal-access"></i>ACCESSIBILITY</li>
-                    <li><i class="fas fa-mobile-alt"></i>RESPONSIVE</li>
-                </ul>
+                <div class="skills-heading">
+                    <h1>SKILLS</h1>
+                </div>
+
+                <div class="skills-icons">
+                    <ul>
+                        <li><i class="fab fa-html5"></i>HTML</li>
+                        <li><i class="fab fa-css3-alt"></i>CSS</li>
+                        <li><i class="fab fa-sass"></i>SASS</li>
+                        <li><i class="fab fa-js"></i>JAVASCRIPT</li>
+                        <li><i class="devicon-jquery-plain"></i>JQUERY</li>
+                        <li><i class="fab fa-react"></i>REACT</li>
+                        <li><i class="devicon-firebase-plain"></i>FIREBASE</li>
+                        <li><i class="fab fa-git-alt"></i>GIT</li>
+                        <li><i class="fab fa-github"></i>GITHUB</li>
+                        <li><i class="fas fa-terminal"></i>COMMAND LINE</li>
+                        <li><i class="fas fa-universal-access"></i>A11Y</li>
+                        <li><i class="fas fa-mobile-alt"></i>RESPONSIVE</li>
+                    </ul>
+                </div>
             </div>
 
         </div>
+    </section>
 
+    <section id="about" class="about">
+        <div class="wrapper">
+            <div class="about-container" data-aos="zoom-out" data-aos-duration="1000">
+
+                <div class="about-heading">
+                    <h1>ABOUT ME</h1>
+                </div>
+    
+                <div class="about-content">
+                    <div class="about-profile-pic"></div>
+
+                    <div class="about-me">
+                        <p>Hey! I am Harman, a front end web developer from Toronto. I recently graduated from Juno College Web Development Bootcamp with strong understanding of front end languages & modern industry trends. I have experience building web applications in advanced JavaScript frameworks & React using effective HTML & CSS techniques.</p>
+
+                        <p>I also graduated from Sheridan College in 2017 with a diploma in Advertising & Digital Marketing which gave me a good eye for design & understanding of online business strategies. I also had the opportunity to gain strong interpersonal and team management skills in my previous work role as a Sales & Marketing Supervisor in Telecommunication industry. I will bring these skills to wherever I work in the future & continue to deliver effective results.</p>
+
+                        <p>Feuled by curious mind and caffeine, you can often find me delving deep in learning new web development techniques & how to create thoughtful & clean design. Other than coding, I love to spend most of my time playing basketball or watching sci-fi & thriller movies, an obsession which i developed through the lockdowns.</p>
+                        
+                        <p>I am really excited to begin this journey & continue to hone my skills with the right company. Drop me a line as I would love to connect and network with innovative & like-minded companies & individuals.<a href="#contact"> Get in Touch here!</a></p>
+
+                        <p>Currently available for collaborations & full-time work opportunities!</p>
+                    </div>
+                </div>
+
+                <div class="resume">
+                    <a href="#" target="_blank">RESUME<i class="fas fa-file-pdf"></i></a>
+                </div>
+
+            </div>
+        </div>
     </section>
 
     <section id="projects" class="projects">
@@ -120,13 +165,98 @@
             <div class="projects-heading">
                 <h1>PROJECTS</h1>
             </div>
-            <!-- <div class="project-container">
-                <img src="./assets/weather-app-desktop.png">
-            </div> -->
+
             <div class="projects-container">
-                <h1>JOBS DEVELOPER</h1>
-                <h1>WEATHER APP</h1>
-                <h1>THE FILM FACTORY</h1>
+
+                <div class="jobs-developer">
+                    <div class="jd-content" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                        <h1>JOBS DEVELOPER</h1>
+                        <p>A job search app for developers created with Firebase Realtime Database in React that allow users to search for jobs based on job title or a location. Users also have the ability to save jobs for later or delete it from saved list. Data is retrieved from Adzuna API.</p>
+                        <h3>BUILD WITH </h3>
+                        <ul class="tech-icons">
+                            <li><i class="fab fa-html5" aria-hidden="true"></i><span class="sr-only" title="HTML">HTML icon</span></li>
+                            <li><i class="fab fa-css3-alt"></i></li>
+                            <li><i class="fab fa-js"></i></li>
+                            <li><i class="fab fa-react"></i></li>
+                            <li><i class="devicon-firebase-plain"></i></li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="https://jobs-developer.netlify.app/" target="_blank">VIEW LIVE</a>
+                            <a href="https://github.com/harrydhamija/jobs-developer" target="_blank">VIEW REPO</a>
+                        </div>
+                    </div>
+
+                    <div class="jd-image" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                        <img src="./assets/image1.png" alt="mock up of app on apple macbook device">
+                    </div>
+                </div>
+
+                <div class="film-factory">
+                    <div class="ff-content" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                        <h1>THE FILM FACTORY</h1>
+                            <p>An app build in React for movie lovers where users can enter an english movie to get foreign movie recommendations with data retrieved from MovieDB API. Users can save the searched & recommended movie as a pair to the saved list & can look up all time results saved by other users. Also built an AutoComplete component from scratch for better user experience.</p>
+                        <h3>BUILD WITH </h3>
+                        <ul class="tech-icons-start">
+                            <li><i class="fab fa-html5"></i></li>
+                            <li><i class="fab fa-sass"></i></li>
+                            <li><i class="fab fa-js"></i></li>
+                            <li><i class="fab fa-react"></i></li>
+                            <li><i class="devicon-firebase-plain"></i></li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="https://the-film-factory.netlify.app/" target="_blank">VIEW LIVE</a>
+                            <a href="https://github.com/Charles-Harman-Nihal/the-film-factory" target="_blank">VIEW REPO</a>
+                        </div>
+                    </div>
+                
+                    <div class="ff-image" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                        <img src="./assets/image1.png" alt="mock up of app on apple macbook device">
+                    </div>
+                </div>
+
+                <div class="weather-app">
+                    <div class="wa-content" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                        <h1>WEATHER APP</h1>
+                        <p>Collaborated with a partner & developed a user interactive weather app which retrieves current weather forecast from Open Weather API based on user input location.</p>
+                        <h3>BUILD WITH </h3>
+                        <ul class="tech-icons">
+                            <li><i class="fab fa-html5"></i></li>
+                            <li><i class="fab fa-css3-alt"></i></li>
+                            <li><i class="fab fa-js"></i></li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="https://harrydhamija.github.io/weather-app/" target="_blank">VIEW LIVE</a>
+                            <a href="https://github.com/harrydhamija/weather-app" target="_blank">VIEW REPO</a>
+                        </div>
+                    </div>
+
+                    <div class="wa-image" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                        <img src="./assets/image1.png" alt="mock up of app on apple macbook device">
+                    </div>
+                </div>
+
+                <div class="boat-adventures">
+                    <div class="ba-content" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                    <h1>BOAT RIDE ADVENTURES</h1>
+                        <!-- <p>Collaborated with a partner & developed a user interactive weather app which retrieves current weather forecast from Open Weather API based on user input location.</p> -->
+                        <p>A multi-page functional & responsive website converted from a PDF design made with HTML & SASS using industry best practices.</p>
+                        <h3>BUILD WITH </h3>
+                        <ul class="tech-icons-start">
+                            <li><i class="fab fa-html5"></i></li>
+                            <li><i class="fab fa-sass"></i></li>
+                            <li><i class="fas fa-mobile-alt"></i></li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="https://harman-nathan.github.io/harman-nathan-project-1/#" target="_blank">VIEW LIVE</a>
+                            <a href="https://github.com/harman-nathan/harman-nathan-project-1" target="_blank">VIEW REPO</a>
+                        </div>
+                    </div>
+                
+                    <div class="ba-image" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                        <img src="./assets/image1.png" alt="mock up of app on apple macbook device">
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
@@ -136,9 +266,10 @@
             <div class="contact-container">
 
                 <div class="contact-text">
-                    <h1>GET IN TOUCH</h1>
-                    <p>Thanks for stopping by! If you have any questions about me or my projects or want to know about my web dev bootcamp journey, hit me up!<br><br>Also, I am a big sci-fi fan so if you ever want to grab a coffee and chat about new & cool sci-fi movies or theories, I'm your man!</p>
-                    <p>Staright shot to my inbox : HARMANAVE@GMAIL.COM</p>
+                    <div class="contact-heading">
+                        <h1>GET IN TOUCH</h1>
+                    </div>
+                    <p>Thanks for stopping by! If you have any questions about me or my projects or want to know about my web dev bootcamp journey, hit me up!<br><br>Also, I am a big SCI-FI fan so if you ever want to grab a coffee and chat about new & cool sci-fi movies or theories, I'm your man!</p>
 
                     <ul class="contact-sm-icons">
                         <li><a href="https://github.com/harrydhamija?tab=repositories" target="blank"><i class="fab fa-github" aria-hidden="true"></i><span class="sr-only">Link to Github profile</span></a></li>
@@ -168,9 +299,13 @@
     </section>
 
     <footer>
-        <p>DESIGNED BY HARMAN DHAMIJA</p>
+        <p>DESIGNED BY HARMAN DHAMIJA © 2021</p>
+        <div class="scroll-top">
+            <i class="fas fa-arrow-up"></i>
+        </div>
     </footer>
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="./scripts.js"></script>
 </body>
 </html>
