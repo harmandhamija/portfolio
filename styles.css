@@ -174,7 +174,7 @@ header h1{
 }
 
 .profile-pic{
-    background-image: url(./assets/harman.JPG);
+    background-image: url(./assets/profile-pic.JPG);
     background-size: cover;
     background-position: center;
     height: 12rem;
@@ -419,7 +419,7 @@ header h1{
 }
 
 .about-profile-pic{
-    background-image: url(./assets/harman.JPG);
+    background-image: url(./assets/profile-pic.JPG);
     background-size: cover;
     background-position: center;
     height: 20rem;
