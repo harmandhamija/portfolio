@@ -267,6 +267,10 @@ header h1{
     padding: 13rem 0 0 4rem;
 }
 
+.intro-about span{
+    font-size: 1.6rem;
+}
+
 .intro-about p{
     opacity: 0.7;
     transition: all 1s ease;
@@ -938,6 +942,10 @@ footer p{
         padding-left: 0;
         text-align: center;
         width: 100%;
+    }
+
+    .intro-about span{
+        font-size: 1.4rem;
     }
 
     .sm-icons{
